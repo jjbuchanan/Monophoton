@@ -1,0 +1,11 @@
+imax  1 number of channels
+jmax  * number of backgrounds
+kmax  * number of nuisance parameters 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+bin             ADD
+observation     77
+-------------------------------------------------------------------------------------------------------------------------------------------
+bin              ADD         ADD         ADD         ADD         ADD         ADD         ADD       ADD
+process          SigMD3d8    Znnu        Wgamma      h_elefake   qcd         h_beamhalo  hstack1   spike
+process          0           1           2           3           4           5            6         7
